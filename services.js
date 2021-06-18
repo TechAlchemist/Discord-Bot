@@ -6,6 +6,13 @@ function getDadJoke() {
     return response;
 }
 
+function getInsult() {
+    const url = 'https://insult.mattbas.org/api/insult.json';
+    const response = axios.get(url);
+    return response;
+}
+
 module.exports = {
-    getDadJoke
+    getDadJoke,
+    getInsult
 }
