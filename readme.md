@@ -7,3 +7,4 @@ A Discord Bot that helps automate some of the things I hate doing, because a pro
 ### Dependencies
 - discord.js
 - dotenv
+- nodemon
